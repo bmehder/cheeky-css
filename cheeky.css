@@ -223,9 +223,9 @@
 
 @layer utilities {
 	.flow > * + * {
-		--space: 1em;
+		--flow-space: 1em;
 
-		margin-block-start: var(--space);
+		margin-block-start: var(--flow-space);
 	}
 
 	.flex {
@@ -251,33 +251,33 @@
 	}
 
 	.margin {
-		--space: var(--size-2);
+		--margin-space: var(--size-2);
 
-		margin: var(--space);
+		margin: var(--margin-space);
 	}
 
 	.mb {
-		--space: var(--size-2);
+		--margin-block-space: var(--size-2);
 
-		margin-block: var(--space);
+		margin-block: var(--margin-block-space);
 	}
 
 	.mbs {
-		--space: var(--size-2);
+		--margin-block-start-space: var(--size-2);
 
-		margin-block-start: var(--space);
+		margin-block-start: var(--margin-block-start-space);
 	}
 
 	.mbe {
-		--space: var(--size-2);
+		--margin-block-end-space: var(--size-2);
 
-		margin-block-end: var(--space);
+		margin-block-end: var(--margin-block-end-space);
 	}
 
 	.mi {
-		--space: var(--size-2);
+		--margin-inline-space: var(--size-2);
 
-		margin-inline: var(--space);
+		margin-inline: var(--margin-inline-space);
 	}
 
 	.mia {
@@ -285,33 +285,33 @@
 	}
 
 	.padding {
-		--space: var(--size-2);
+		--padding-space: var(--size-2);
 
-		padding: var(--space);
+		padding: var(--padding-space);
 	}
 
 	.pb {
-		--space: var(--size-4);
+		--padding-block-space: var(--size-4);
 
-		padding-block: var(--space);
+		padding-block: var(--padding-block-space);
 	}
 
 	.pbs {
-		--space: var(--size-4);
+		--padding-block-start-space: var(--size-4);
 
-		padding-block-start: var(--space);
+		padding-block-start: var(--padding-block-start-space);
 	}
 
 	.pbe {
-		--space: var(--size-4);
+		--padding-block-end-space: var(--size-4);
 
-		padding-block-end: var(--space);
+		padding-block-end: var(--padding-block-end-space);
 	}
 
 	.pi {
-		--space: var(--size-2);
+		--padding-inline-space: var(--size-2);
 
-		padding-inline: var(--space);
+		padding-inline: var(--padding-inline-space);
 	}
 
 	.bold {
