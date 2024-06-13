@@ -352,9 +352,7 @@
 	}
 
 	.border {
-		--border-color: initial;
-
-		border: 1px solid var(--border-color);
+		border: 1px solid;
 	}
 
 	.blur {
