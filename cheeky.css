@@ -39,6 +39,10 @@
 		padding: 0;
 	}
 
+	html {
+		scroll-behavior: smooth;
+	}
+
 	body {
 		font-family: system-ui, sans-serif;
 		font-size: var(--size);
@@ -92,6 +96,12 @@
 	samp {
 		font-family: monospace;
 		font-size: 1em;
+	}
+
+	input,
+	textarea,
+	select {
+		min-inline-size: 0;
 	}
 
 	sub,
@@ -370,6 +380,10 @@
 	.container-inline-size {
 		container-type: inline-size;
 	}
+}
+
+.fixed {
+	position: fixed;
 }
 
 @layer skins {
