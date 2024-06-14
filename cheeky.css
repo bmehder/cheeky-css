@@ -623,6 +623,36 @@
 		margin-bottom: var(--size-2);
 	}
 
+	.m-2-5 {
+		margin: var(--size-2-5);
+	}
+
+	.mt-2-5 {
+		margin-top: var(--size-2-5);
+	}
+
+	.mr-2-5 {
+		margin-right: var(--size-2-5);
+	}
+
+	.mb-2-5 {
+		margin-bottom: var(--size-2-5);
+	}
+
+	.ml-2-5 {
+		margin-left: var(--size-2-5);
+	}
+
+	.mx-2-5 {
+		margin-left: var(--size-2-5);
+		margin-right: var(--size-2-5);
+	}
+
+	.my-2-5 {
+		margin-top: var(--size-2-5);
+		margin-bottom: var(--size-2-5);
+	}
+
 	.m-3 {
 		margin: var(--size-3);
 	}
@@ -999,6 +1029,36 @@
 	.px-2 {
 		padding-left: var(--size-2);
 		padding-right: var(--size-2);
+	}
+
+	.p-2-5 {
+		padding: var(--size-2-5);
+	}
+
+	.pt-2-5 {
+		padding-top: var(--size-2-5);
+	}
+
+	.pr-2-5 {
+		padding-right: var(--size-2-5);
+	}
+
+	.pb-2-5 {
+		padding-bottom: var(--size-2-5);
+	}
+
+	.pl-2-5 {
+		padding-left: var(--size-2-5);
+	}
+
+	.py-2-5 {
+		padding-top: var(--size-2-5);
+		padding-bottom: var(--size-2-5);
+	}
+
+	.px-2-5 {
+		padding-left: var(--size-2-5);
+		padding-right: var(--size-2-5);
 	}
 
 	.p-3 {
