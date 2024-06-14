@@ -538,6 +538,36 @@
 		padding-bottom: 0;
 	}
 
+	.p05 {
+		padding: var(--size-0-5);
+	}
+
+	.pt05 {
+		padding-top: var(--size-0-5);
+	}
+
+	.pr05 {
+		padding-right: var(--size-0-5);
+	}
+
+	.pb05 {
+		padding-bottom: var(--size-0-5);
+	}
+
+	.pl05 {
+		padding-left: var(--size-0-5);
+	}
+
+	.py05 {
+		padding-top: var(--size-0-5);
+		padding-bottom: var(--size-0-5);
+	}
+
+	.px05 {
+		padding-left: var(--size-0-5);
+		padding-right: var(--size-0-5);
+	}
+
 	.p1 {
 		padding: var(--size);
 	}
