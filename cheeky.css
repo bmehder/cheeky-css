@@ -102,6 +102,7 @@
 	textarea,
 	select {
 		min-inline-size: 0;
+		font: inherit;
 	}
 
 	sub,
