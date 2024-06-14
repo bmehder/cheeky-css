@@ -255,6 +255,18 @@
 		margin-block-start: var(--size-2);
 	}
 
+	.fixed {
+		position: fixed;
+	}
+
+	.absolute {
+		position: absolute;
+	}
+
+	.relative {
+		position: relative;
+	}
+
 	.grid {
 		display: grid;
 	}
@@ -1169,8 +1181,16 @@
 		padding-right: var(--size-8);
 	}
 
+	.monospace {
+		font-family: monospace;
+	}
+
 	.bold {
 		font-weight: 600;
+	}
+
+	.italic {
+		font-style: italic;
 	}
 
 	.text-left {
@@ -1183,6 +1203,38 @@
 
 	.text-right {
 		text-align: right;
+	}
+
+	.text-justify {
+		text-align: justify;
+	}
+
+	.uppercase {
+		text-transform: uppercase;
+	}
+
+	.lowercase {
+		text-transform: lowercase;
+	}
+
+	.capitalize {
+		text-transform: capitalize;
+	}
+
+	.l-s-1 {
+		letter-spacing: 1px;
+	}
+
+	.l-s-2 {
+		letter-spacing: 2px;
+	}
+
+	.l-s-3 {
+		letter-spacing: 3px;
+	}
+
+	.pointer {
+		cursor: pointer;
 	}
 
 	.balance {
@@ -1209,6 +1261,10 @@
 		border: 1px solid;
 	}
 
+	.outline {
+		border: 1px solid;
+	}
+
 	.blur {
 		backdrop-filter: blur(5px);
 	}
@@ -1221,13 +1277,25 @@
 		border-image: fill 0 linear-gradient(var(--deg), var(--start), var(--end));
 	}
 
+	.cover {
+		background-size: cover;
+	}
+
+	.contain {
+		background-size: contain;
+	}
+
+	.no-repeat {
+		background-repeat: no-repeat;
+	}
+
 	.container-inline-size {
 		container-type: inline-size;
 	}
-}
 
-.fixed {
-	position: fixed;
+	.user-select-none {
+		user-select: none;
+	}
 }
 
 @layer skins {
