@@ -261,6 +261,10 @@
 		justify-self: start;
 	}
 
+	.full-width {
+		width: 100%;
+	}
+
 	.margin {
 		--margin-space: var(--size-2);
 
