@@ -329,6 +329,36 @@
 		margin-bottom: 0;
 	}
 
+	.m05 {
+		margin: var(--size-0-5);
+	}
+
+	.mt05 {
+		margin-top: var(--size-0-5);
+	}
+
+	.mr05 {
+		margin-right: var(--size-0-5);
+	}
+
+	.mb05 {
+		margin-bottom: var(--size-0-5);
+	}
+
+	.ml05 {
+		margin-left: var(--size-0-5);
+	}
+
+	.mx05 {
+		margin-left: var(--size-0-5);
+		margin-right: var(--size-0-5);
+	}
+
+	.my05 {
+		margin-top: var(--size-0-5);
+		margin-bottom: var(--size-0-5);
+	}
+
 	.m1 {
 		margin: var(--size);
 	}
