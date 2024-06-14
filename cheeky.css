@@ -1173,16 +1173,15 @@
 		font-weight: 600;
 	}
 
-	.left {
+	.text-left {
 		text-align: left;
 	}
 
-	.center {
-		margin-inline: auto;
+	.text-center {
 		text-align: center;
 	}
 
-	.right {
+	.text-right {
 		text-align: right;
 	}
 
