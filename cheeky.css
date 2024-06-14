@@ -375,7 +375,7 @@
 @layer skins {
 	.skin-accent {
 		--bg: var(--accent);
-		--fg: var(--accent-inverse);
+		--fg: var(--dark);
 
 		background-color: var(--bg);
 		color: var(--fg);
