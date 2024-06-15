@@ -264,6 +264,26 @@
 		position: relative;
 	}
 
+	.z-1 {
+		z-index: 1;
+	}
+
+	.z-10 {
+		z-index: 10;
+	}
+
+	.z-100 {
+		z-index: 100;
+	}
+
+	.z-1000 {
+		z-index: 1000;
+	}
+
+	.z-top {
+		z-index: 2147483647;
+	}
+
 	.grid {
 		display: grid;
 	}
@@ -1312,6 +1332,46 @@
 
 	.fw-900 {
 		font-weight: 900;
+	}
+
+	.text-fluid-1 {
+		font-size: clamp(0.5rem, calc(1vw * 1px), 1rem);
+	}
+
+	.text-fluid-2 {
+		font-size: clamp(1rem, calc(2vw * 1px), 1.5rem);
+	}
+
+	.text-fluid-3 {
+		font-size: clamp(1.5rem, calc(3vw * 1px), 2rem);
+	}
+
+	.text-fluid-4 {
+		font-size: clamp(2rem, calc(4vw * 1px), 3rem);
+	}
+
+	.text-fluid-5 {
+		font-size: clamp(4rem, calc(5vw * 1px), 5rem);
+	}
+
+	.text-fluid-6 {
+		font-size: clamp(5rem, calc(7vw * 1px), 7.5rem);
+	}
+
+	.text-fluid-7 {
+		font-size: clamp(7.5rem, calc(10vw * 1px), 10rem);
+	}
+
+	.text-fluid-8 {
+		font-size: clamp(10rem, calc(20vw * 1px), 15rem);
+	}
+
+	.text-fluid-9 {
+		font-size: clamp(15rem, calc(30vw * 1px), 20rem);
+	}
+
+	.text-fluid-10 {
+		font-size: clamp(20rem, calc(40vw * 1px), 30rem);
 	}
 
 	.ls-1 {
