@@ -1339,10 +1339,27 @@
 	}
 
 	.square {
-		--position: center;
-
 		aspect-ratio: 1;
-		object-fit: cover;
+	}
+
+	.landscape {
+		aspect-ratio: 4/3;
+	}
+
+	.portrait {
+		aspect-ratio: 3/4;
+	}
+
+	.widescreen {
+		aspect-ratio: 16/9;
+	}
+
+	.ultrawide {
+		aspect-ratio: 18/5;
+	}
+
+	.golden {
+		aspect-ratio: 1.618/1;
 	}
 
 	.fit {
