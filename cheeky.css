@@ -200,25 +200,20 @@
 		min-block-size: 100dvh;
 		display: grid;
 		place-content: center;
-		gap: var(--gap);
 	}
 
 	.auto-fit {
 		--min: var(--xs);
-		/* --gap: var(--size-3); */
 
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(var(--min), 1fr));
-		/* gap: var(--gap); */
 	}
 
 	.auto-fill {
 		--min: var(--xs);
-		/* --gap: var(--size-3); */
 
 		display: grid;
 		grid-template-columns: repeat(auto-fill, minmax(var(--min), 1fr));
-		/* gap: var(--gap); */
 	}
 
 	nav {
@@ -1319,15 +1314,15 @@
 		font-weight: 900;
 	}
 
-	.l-s-1 {
+	.ls-1 {
 		letter-spacing: 1px;
 	}
 
-	.l-s-2 {
+	.ls-2 {
 		letter-spacing: 2px;
 	}
 
-	.l-s-3 {
+	.ls-3 {
 		letter-spacing: 3px;
 	}
 
@@ -1348,7 +1343,30 @@
 
 		aspect-ratio: 1;
 		object-fit: cover;
-		object-position: var(--position);
+	}
+
+	.fit {
+		object-fit: cover;
+	}
+
+	.object-position-top {
+		object-position: top;
+	}
+
+	.object-position-left {
+		object-position: left;
+	}
+
+	.object-position-center {
+		object-position: center;
+	}
+
+	.object-position-right {
+		object-position: right;
+	}
+
+	.object-position-bottom {
+		object-position: bottom;
 	}
 
 	.shadow {
