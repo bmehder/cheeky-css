@@ -1298,6 +1298,34 @@
 		text-transform: capitalize;
 	}
 
+	.line-height-0 {
+		line-height: 0;
+	}
+
+	.line-height-1 {
+		line-height: 1.1;
+	}
+
+	.line-height-2 {
+		line-height: 1.25;
+	}
+
+	.line-height-3 {
+		line-height: 1.375;
+	}
+
+	.line-height-4 {
+		line-height: 1.5;
+	}
+
+	.line-height-5 {
+		line-height: 1.75;
+	}
+
+	.line-height-6 {
+		line-height: 2;
+	}
+
 	.fw-100 {
 		font-weight: 100;
 	}
@@ -1495,12 +1523,392 @@
 			0 100px 80px -2px hsl(220 40% 2% / calc(10% + 7%));
 	}
 
-	.border {
+	.gradient-1 {
+		background-image: linear-gradient(
+			to bottom right,
+			#1f005c,
+			#5b0060,
+			#870160,
+			#ac255e,
+			#ca485c,
+			#e16b5c,
+			#f39060,
+			#ffb56b
+		);
+	}
+
+	.gradient-2 {
+		background-image: linear-gradient(to bottom right, #48005c, #8300e2, #a269ff);
+	}
+
+	.gradient-3 {
+		background-image: radial-gradient(
+				circle at top right,
+				hsl(180 100% 50%),
+				hsl(180 100% 50% / 0%)
+			),
+			radial-gradient(
+				circle at bottom left,
+				hsl(328 100% 54%),
+				hsl(328 100% 54% / 0%)
+			);
+	}
+
+	.gradient-4 {
+		background-image: linear-gradient(to bottom right, #00f5a0, #00d9f5);
+	}
+
+	.gradient-5 {
+		background-image: conic-gradient(
+			from -270deg at 75%,
+			at 110%,
+			fuchsia,
+			floralwhite
+		);
+	}
+
+	.gradient-5 {
+		background-image: conic-gradient(from -270deg at 75% 110%, fuchsia, floralwhite);
+	}
+
+	.gradient-6 {
+		background-image: conic-gradient(from -90deg at top left, black, white);
+	}
+
+	.gradient-7 {
+		background-image: linear-gradient(to bottom right, #72c6ef, #004e8f);
+	}
+
+	.gradient-8 {
+		background-image: conic-gradient(
+			from 90deg at 50%,
+			at 0%,
+			#111,
+			50%,
+			#222,
+			#111
+		);
+	}
+
+	.gradient-8 {
+		background-image: conic-gradient(from 90deg at 50% 0%, #111, 50%, #222, #111);
+	}
+
+	.gradient-9 {
+		background-image: conic-gradient(
+			from 0.5turn at bottom center,
+			lightblue,
+			white
+		);
+	}
+
+	.gradient-10 {
+		background-image: conic-gradient(
+			from 90deg at 40%,
+			at -25%,
+			#ffd700,
+			#f79d03,
+			#ee6907,
+			#e6390a,
+			#de0d0d,
+			#d61039,
+			#cf1261,
+			#c71585,
+			#cf1261,
+			#d61039,
+			#de0d0d,
+			#ee6907,
+			#f79d03,
+			#ffd700,
+			#ffd700,
+			#ffd700
+		);
+	}
+	.gradient-10 {
+		background-image: conic-gradient(
+			from 90deg at 40% -25%,
+			#ffd700,
+			#f79d03,
+			#ee6907,
+			#e6390a,
+			#de0d0d,
+			#d61039,
+			#cf1261,
+			#c71585,
+			#cf1261,
+			#d61039,
+			#de0d0d,
+			#ee6907,
+			#f79d03,
+			#ffd700,
+			#ffd700,
+			#ffd700
+		);
+	}
+	.gradient-11 {
+		background-image: conic-gradient(at bottom left, deeppink, cyan);
+	}
+	.gradient-12 {
+		background-image: conic-gradient(
+			from 90deg at 25%,
+			at -10%,
+			#ff4500,
+			#d3f340,
+			#7bee85,
+			#afeeee,
+			#7bee85
+		);
+	}
+	.gradient-12 {
+		background-image: conic-gradient(
+			from 90deg at 25% -10%,
+			#ff4500,
+			#d3f340,
+			#7bee85,
+			#afeeee,
+			#7bee85
+		);
+	}
+	.gradient-13 {
+		background-image: radial-gradient(
+			circle at 50%,
+			at 200%,
+			#000142,
+			#3b0083,
+			#b300c3,
+			#ff059f,
+			#ff4661,
+			#ffad86,
+			#fff3c7
+		);
+	}
+	.gradient-13 {
+		background-image: radial-gradient(
+			circle at 50% 200%,
+			#000142,
+			#3b0083,
+			#b300c3,
+			#ff059f,
+			#ff4661,
+			#ffad86,
+			#fff3c7
+		);
+	}
+	.gradient-14 {
+		background-image: conic-gradient(at top right, lime, cyan);
+	}
+	.gradient-15 {
+		background-image: linear-gradient(to bottom right, #c7d2fe, #fecaca, #fef3c7);
+	}
+	.gradient-16 {
+		background-image: radial-gradient(
+			circle at 50%,
+			at -250%,
+			#374151,
+			#111827,
+			#000
+		);
+	}
+	.gradient-16 {
+		background-image: radial-gradient(circle at 50% -250%, #374151, #111827, #000);
+	}
+	.gradient-17 {
+		background-image: conic-gradient(from -90deg at 50%, at -25%, blue, blueviolet);
+	}
+	.gradient-17 {
+		background-image: conic-gradient(from -90deg at 50% -25%, blue, blueviolet);
+	}
+	.gradient-18 {
+		background-image: linear-gradient(
+				0deg,
+				hsla(0 100% 50% / 80%),
+				hsla(0 100% 50% / 0) 75%
+			),
+			linear-gradient(60deg, hsla(60 100% 50% / 80%), hsla(60 100% 50% / 0) 75%),
+			linear-gradient(120deg, hsla(120 100% 50% / 80%), hsla(120 100% 50% / 0) 75%),
+			linear-gradient(180deg, hsla(180 100% 50% / 80%), hsla(180 100% 50% / 0) 75%),
+			linear-gradient(240deg, hsla(240 100% 50% / 80%), hsla(240 100% 50% / 0) 75%),
+			linear-gradient(300deg, hsla(300 100% 50% / 80%), hsla(300 100% 50% / 0) 75%);
+	}
+	.gradient-19 {
+		background-image: linear-gradient(to bottom right, #ffe259, #ffa751);
+	}
+	.gradient-20 {
+		background-image: conic-gradient(
+			from -135deg at -10% center,
+			#ffa500,
+			#ff7715,
+			#ff522a,
+			#ff3f47,
+			#ff5482,
+			#ff69b4
+		);
+	}
+	.gradient-21 {
+		background-image: conic-gradient(
+			from -90deg at 25%,
+			at 115%,
+			#ff0000,
+			#ff0066,
+			#ff00cc,
+			#cc00ff,
+			#6600ff,
+			#0000ff,
+			#0000ff,
+			#0000ff,
+			#0000ff
+		);
+	}
+	.gradient-21 {
+		background-image: conic-gradient(
+			from -90deg at 25% 115%,
+			#ff0000,
+			#ff0066,
+			#ff00cc,
+			#cc00ff,
+			#6600ff,
+			#0000ff,
+			#0000ff,
+			#0000ff,
+			#0000ff
+		);
+	}
+	.gradient-22 {
+		background-image: linear-gradient(to bottom right, #acb6e5, #86fde8);
+	}
+	.gradient-23 {
+		background-image: linear-gradient(to bottom right, #536976, #292e49);
+	}
+	.gradient-24 {
+		background-image: conic-gradient(
+			from 0.5turn at 0%,
+			at 0%,
+			#00c476,
+			10%,
+			#82b0ff,
+			90%,
+			#00c476
+		);
+	}
+	.gradient-24 {
+		background-image: conic-gradient(
+			from 0.5turn at 0% 0%,
+			#00c476,
+			10%,
+			#82b0ff,
+			90%,
+			#00c476
+		);
+	}
+	.gradient-25 {
+		background-image: conic-gradient(
+			at 125%,
+			at 50%,
+			#b78cf7,
+			#ff7c94,
+			#ffcf0d,
+			#ff7c94,
+			#b78cf7
+		);
+	}
+	.gradient-25 {
+		background-image: conic-gradient(
+			at 125% 50%,
+			#b78cf7,
+			#ff7c94,
+			#ffcf0d,
+			#ff7c94,
+			#b78cf7
+		);
+	}
+	.gradient-26 {
+		background-image: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+	}
+	.gradient-27 {
+		background-image: conic-gradient(from 0.5turn at bottom left, deeppink, #639);
+	}
+	.gradient-28 {
+		background-image: conic-gradient(from -90deg at 50%, at 105%, white, orchid);
+	}
+	.gradient-28 {
+		background-image: conic-gradient(from -90deg at 50% 105%, white, orchid);
+	}
+	.gradient-29 {
+		background-image: radial-gradient(
+				circle at top right,
+				hsl(250 100% 85%),
+				hsl(250 100% 85% / 0%)
+			),
+			radial-gradient(circle at bottom left, hsl(220 90% 75%), hsl(220 90% 75% / 0%));
+	}
+	.gradient-30 {
+		background-image: radial-gradient(
+				circle at top right,
+				hsl(150 100% 50%),
+				hsl(150 100% 50% / 0%)
+			),
+			radial-gradient(
+				circle at bottom left,
+				hsl(150 100% 84%),
+				hsl(150 100% 84% / 0%)
+			);
+	}
+	.border,
+	.border-1 {
 		border: 1px solid;
 	}
 
+	.border-2 {
+		border: 2px solid;
+	}
+
+	.border-3 {
+		border: 3px solid;
+	}
+
+	.border-4 {
+		border: 4px solid;
+	}
+
+	.border-5 {
+		border: 5px solid;
+	}
+
+	.border-6 {
+		border: 6px solid;
+	}
+
+	.circle {
+		aspect-ratio: 1;
+		border-radius: 50%;
+	}
+
+	.radius-1 {
+		border-radius: 2px;
+	}
+
+	.radius-2 {
+		border-radius: 4px;
+	}
+
+	.radius-3 {
+		border-radius: var(--size-0-5);
+	}
+
+	.radius-4 {
+		border-radius: var(--size);
+	}
+
+	.radius-5 {
+		border-radius: var(--size-1-5);
+	}
+
+	.radius-6 {
+		border-radius: var(--size-2);
+	}
+
 	.outline {
-		border: 1px solid;
+		outline: 1px solid;
 	}
 
 	.blur {
