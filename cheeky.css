@@ -1335,43 +1335,43 @@
 	}
 
 	.text-fluid-1 {
-		font-size: clamp(0.5rem, calc(1vw * 1px), 1rem);
+		font-size: calc(clamp(0.5rem, 1vw, 1rem) * 1px);
 	}
 
 	.text-fluid-2 {
-		font-size: clamp(1rem, calc(2vw * 1px), 1.5rem);
+		font-size: calc(clamp(1rem, 2vw, 1.5rem) * 1px);
 	}
 
 	.text-fluid-3 {
-		font-size: clamp(1.5rem, calc(3vw * 1px), 2rem);
+		font-size: calc(clamp(1.5rem, 3vw, 2rem) * 1px);
 	}
 
 	.text-fluid-4 {
-		font-size: clamp(2rem, calc(4vw * 1px), 3rem);
+		font-size: calc(clamp(2rem, 4vw, 3rem) * 1px);
 	}
 
 	.text-fluid-5 {
-		font-size: clamp(4rem, calc(5vw * 1px), 5rem);
+		font-size: calc(clamp(4rem, 5vw, 5rem) * 1px);
 	}
 
 	.text-fluid-6 {
-		font-size: clamp(5rem, calc(7vw * 1px), 7.5rem);
+		font-size: calc(clamp(5rem, 7vw, 7.5rem) * 1px);
 	}
 
 	.text-fluid-7 {
-		font-size: clamp(7.5rem, calc(10vw * 1px), 10rem);
+		font-size: calc(clamp(7.5rem, 10vw, 10rem) * 1px);
 	}
 
 	.text-fluid-8 {
-		font-size: clamp(10rem, calc(20vw * 1px), 15rem);
+		font-size: calc(clamp(10rem, 20vw, 15rem) * 1px);
 	}
 
 	.text-fluid-9 {
-		font-size: clamp(15rem, calc(30vw * 1px), 20rem);
+		font-size: calc(clamp(15rem, 30vw, 20rem) * 1px);
 	}
 
 	.text-fluid-10 {
-		font-size: clamp(20rem, calc(40vw * 1px), 30rem);
+		font-size: calc(clamp(20rem, 40vw, 30rem) * 1px);
 	}
 
 	.ls-1 {
