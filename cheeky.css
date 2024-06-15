@@ -1398,6 +1398,38 @@
 	.user-select-none {
 		user-select: none;
 	}
+
+	.bg-light {
+		background-color: var(--light);
+	}
+
+	.bg-dark {
+		background-color: var(--dark);
+	}
+
+	.bg-accent {
+		background-color: var(--accent);
+	}
+
+	.bg-accent-inverse {
+		background-color: var(--accent-inverse);
+	}
+
+	.color-light {
+		color: var(--light);
+	}
+
+	.color-dark {
+		color: var(--dark);
+	}
+
+	.color-accent {
+		color: var(--accent);
+	}
+
+	.color-accent-inverse {
+		color: var(--accent-inverse);
+	}
 }
 
 @layer skins {
