@@ -205,20 +205,20 @@
 
 	.auto-fit {
 		--min: var(--xs);
-		--gap: var(--size-3);
+		/* --gap: var(--size-3); */
 
 		display: grid;
 		grid-template-columns: repeat(auto-fit, minmax(var(--min), 1fr));
-		gap: var(--gap);
+		/* gap: var(--gap); */
 	}
 
 	.auto-fill {
 		--min: var(--xs);
-		--gap: var(--size-3);
+		/* --gap: var(--size-3); */
 
 		display: grid;
 		grid-template-columns: repeat(auto-fill, minmax(var(--min), 1fr));
-		gap: var(--gap);
+		/* gap: var(--gap); */
 	}
 
 	nav {
