@@ -4206,6 +4206,54 @@
 		border-image: fill 0 linear-gradient(var(--deg), var(--start), var(--end));
 	}
 
+	.overlay-1 {
+		--deg: 90deg;
+		--start: #0002;
+		--end: #0002;
+
+		border-image: fill 0 linear-gradient(var(--deg), var(--start), var(--end));
+	}
+
+	.overlay-2 {
+		--deg: 90deg;
+		--start: #0004;
+		--end: #0005;
+
+		border-image: fill 0 linear-gradient(var(--deg), var(--start), var(--end));
+	}
+
+	.overlay-3 {
+		--deg: 90deg;
+		--start: #0006;
+		--end: #0006;
+
+		border-image: fill 0 linear-gradient(var(--deg), var(--start), var(--end));
+	}
+
+	.overlay-4 {
+		--deg: 90deg;
+		--start: #0009;
+		--end: #0009;
+
+		border-image: fill 0 linear-gradient(var(--deg), var(--start), var(--end));
+	}
+
+	.overlay-5 {
+		--deg: 90deg;
+		--start: #000a;
+		--end: #000a;
+
+		border-image: fill 0 linear-gradient(var(--deg), var(--start), var(--end));
+	}
+
+	.overlay-6 {
+		--deg: 90deg;
+		--start: #000c;
+		--end: #000c;
+
+		border-image: fill 0 linear-gradient(var(--deg), var(--start), var(--end));
+	}
+
 	.bg-center {
 		background-position: center;
 	}
