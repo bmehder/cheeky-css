@@ -417,6 +417,8 @@
 		color: var(--accent);
 
 		&:is(:hover, :focus-visible) {
+			--fg: var(--accent);
+			color: var(--fg);
 			text-decoration: none;
 		}
 	}
