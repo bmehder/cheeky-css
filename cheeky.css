@@ -405,6 +405,7 @@
 		cursor: pointer;
 
 		&:is(:hover, :focus-visible) {
+			--bg: var(--accent);
 			background-color: transparent;
 			color: var(--bg);
 			outline: 3px solid var(--bg);
