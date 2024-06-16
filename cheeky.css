@@ -388,22 +388,18 @@
 		color: var(--accent);
 
 		&:hover {
-			--fg: var(--accent);
-			color: var(--fg);
+			color: var(--accent);
 			text-decoration: none;
 		}
 
 		&:focus-visible {
-			--fg: var(--accent);
-			color: var(--fg);
+			color: var(--accent);
 			text-decoration: none;
 		}
 	}
 
 	button,
 	.button {
-		--bg: var(--accent);
-		--fg: var(--dark);
 		display: inline-flex;
 		place-content: center;
 		align-items: center;
@@ -411,8 +407,8 @@
 		gap: var(--size-0-5);
 		padding-block: var(--size-0-5);
 		padding-inline: var(--size-1-5);
-		background-color: var(--bg);
-		color: var(--fg);
+		background-color: var(--accent);
+		color: var(--light);
 		font: inherit;
 		font-weight: 600;
 		text-wrap: balance;
@@ -422,10 +418,9 @@
 		cursor: pointer;
 
 		&:is(:hover, :focus-visible) {
-			--bg: var(--accent);
 			background-color: transparent;
-			color: var(--bg);
-			outline: 3px solid var(--bg);
+			color: var(--accent);
+			outline: 3px solid var(--accent);
 		}
 	}
 
