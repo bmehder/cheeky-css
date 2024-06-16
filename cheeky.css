@@ -385,6 +385,8 @@
 
 	button,
 	.button {
+		--bg: var(--accent);
+		--fg: var(--dark);
 		display: inline-flex;
 		place-content: center;
 		align-items: center;
@@ -392,8 +394,8 @@
 		gap: var(--size-0-5);
 		padding-block: var(--size-0-5);
 		padding-inline: var(--size-1-5);
-		background-color: var(--accent);
-		color: var(--dark);
+		background-color: var(--bg);
+		color: var(--fg);
 		font: inherit;
 		font-weight: 600;
 		text-wrap: balance;
@@ -404,8 +406,8 @@
 
 		&:where(:hover, :focus-visible) {
 			background-color: transparent;
-			color: var(--accent);
-			outline: 3px solid var(--accent);
+			color: var(--bg);
+			outline: 3px solid var(--bg);
 		}
 	}
 
@@ -1582,6 +1584,10 @@
 
 	.text-justify {
 		text-align: justify;
+	}
+
+	.text-underline {
+		text-decoration: underline;
 	}
 
 	.uppercase {
