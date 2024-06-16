@@ -416,6 +416,7 @@
 		border: none;
 		border-radius: 2px;
 		cursor: pointer;
+		transition: all 100ms ease;
 
 		&:is(:hover, :focus-visible) {
 			background-color: transparent;
