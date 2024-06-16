@@ -532,6 +532,40 @@
 		z-index: 2147483647;
 	}
 
+	.overflow-hidden {
+		overflow: hidden;
+	}
+
+	.overflow-x-hidden {
+		overflow-x: hidden;
+	}
+
+	.overflow-y-hidden {
+		overflow-y: hidden;
+	}
+
+	.overflow-auto {
+		overflow: auto;
+	}
+
+	.overflow-x-auto {
+		overflow-x: auto;
+	}
+
+	.overflow-y-auto {
+		overflow-y: auto;
+	}
+
+	.hidden {
+		opacity: 0;
+	}
+
+	.display-none,
+	.none,
+	.nuke {
+		display: none;
+	}
+
 	.grid {
 		display: grid;
 	}
