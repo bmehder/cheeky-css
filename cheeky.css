@@ -734,6 +734,10 @@
 		width: 100%;
 	}
 
+	.fit-content {
+		max-width: fit-content;
+	}
+
 	.margin {
 		--margin-space: var(--size-2);
 
