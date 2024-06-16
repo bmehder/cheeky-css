@@ -416,7 +416,7 @@
 	.a {
 		color: var(--accent);
 
-		&:where(:hover, :focus-visible) {
+		&:is(:hover, :focus-visible) {
 			text-decoration: none;
 		}
 	}
