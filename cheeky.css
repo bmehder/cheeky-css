@@ -383,6 +383,23 @@
 		}
 	}
 
+	a,
+	.a {
+		color: var(--accent);
+
+		&:hover {
+			--fg: var(--accent);
+			color: var(--fg);
+			text-decoration: none;
+		}
+
+		&:focus-visible {
+			--fg: var(--accent);
+			color: var(--fg);
+			text-decoration: none;
+		}
+	}
+
 	button,
 	.button {
 		--bg: var(--accent);
@@ -409,23 +426,6 @@
 			background-color: transparent;
 			color: var(--bg);
 			outline: 3px solid var(--bg);
-		}
-	}
-
-	a,
-	.a {
-		color: var(--accent);
-
-		&:hover {
-			--fg: var(--accent);
-			color: var(--fg);
-			text-decoration: none;
-		}
-
-		&:focus-visible {
-			--fg: var(--accent);
-			color: var(--fg);
-			text-decoration: none;
 		}
 	}
 
