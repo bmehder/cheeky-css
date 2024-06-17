@@ -413,8 +413,8 @@
 		gap: var(--size-0-5);
 		padding-block: var(--size-0-5);
 		padding-inline: var(--size-1-5);
-		background-color: var(--accent);
-		color: var(--light);
+		background-color: var(--fg, var(--accent));
+		color: var(--fg, var(--light));
 		font: inherit;
 		font-weight: 600;
 		text-wrap: balance;
