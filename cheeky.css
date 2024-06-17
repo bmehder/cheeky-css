@@ -6711,7 +6711,7 @@
 	.overlay-2 {
 		--deg: 90deg;
 		--start: #0004;
-		--end: #0005;
+		--end: #0004;
 
 		border-image: fill 0 linear-gradient(var(--deg), var(--start), var(--end));
 	}
