@@ -1623,6 +1623,12 @@
 		text-decoration: underline;
 	}
 
+	.text-underline-none,
+	.hover-text-underline-none:hover,
+	.hover-text-underline-none:focus-visible {
+		text-decoration: none;
+	}
+
 	.uppercase {
 		text-transform: uppercase;
 	}
