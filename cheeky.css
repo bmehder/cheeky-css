@@ -6739,7 +6739,7 @@
 		outline: 10px solid;
 	}
 
-	.hover-outline-0 {
+	.hover-outline-0:hover {
 		outline: 0px solid;
 	}
 
