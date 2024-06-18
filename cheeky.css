@@ -6699,10 +6699,6 @@
 		border-radius: var(--size-2);
 	}
 
-	.outline-0 {
-		outline: 0px solid;
-	}
-
 	.outline-1 {
 		outline: 1px solid;
 	}
@@ -6741,6 +6737,10 @@
 
 	.outline-10 {
 		outline: 10px solid;
+	}
+
+	.hover-outline-0 {
+		outline: 0px solid;
 	}
 
 	.blur {
