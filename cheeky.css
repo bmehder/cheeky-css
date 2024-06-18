@@ -6699,8 +6699,44 @@
 		border-radius: var(--size-2);
 	}
 
-	.outline {
+	.outline-1 {
 		outline: 1px solid;
+	}
+
+	.outline-2 {
+		outline: 2px solid;
+	}
+
+	.outline-3 {
+		outline: 3px solid;
+	}
+
+	.outline-4 {
+		outline: 4px solid;
+	}
+
+	.outline-5 {
+		outline: 5px solid;
+	}
+
+	.outline-6 {
+		outline: 6px solid;
+	}
+
+	.outline-7 {
+		outline: 7px solid;
+	}
+
+	.outline-8 {
+		outline: 8px solid;
+	}
+
+	.outline-9 {
+		outline: 9px solid;
+	}
+
+	.outline-10 {
+		outline: 10px solid;
 	}
 
 	.blur {
