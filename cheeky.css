@@ -6743,6 +6743,56 @@
 		outline: 10px solid;
 	}
 
+	.hover-outline-1:hover,
+	.hover-outline-1:focus-visible {
+		outline: 1px solid;
+	}
+
+	.hover-outline-2:hover,
+	.hover-outline-2:focus-visible {
+		outline: 2px solid;
+	}
+
+	.hover-outline-3:hover,
+	.hover-outline-3:focus-visible {
+		outline: 3px solid;
+	}
+
+	.hover-outline-4:hover,
+	.hover-outline-4:focus-visible {
+		outline: 4px solid;
+	}
+
+	.hover-outline-5:hover,
+	.hover-outline-5:focus-visible {
+		outline: 5px solid;
+	}
+
+	.hover-outline-6:hover,
+	.hover-outline-6:focus-visible {
+		outline: 6px solid;
+	}
+
+	.hover-outline-7:hover,
+	.hover-outline-7:focus-visible {
+		outline: 7px solid;
+	}
+
+	.hover-outline-8:hover,
+	.hover-outline-8:focus-visible {
+		outline: 8px solid;
+	}
+
+	.hover-outline-9:hover,
+	.hover-outline-9:focus-visible {
+		outline: 9px solid;
+	}
+
+	.hover-outline-10:hover,
+	.hover-outline-10:focus-visible {
+		outline: 10px solid;
+	}
+
 	.hover-outline-0:hover {
 		outline: 0px solid;
 	}
