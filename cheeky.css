@@ -354,6 +354,7 @@
 	img,
 	svg {
 		inline-size: 100%;
+		height: auto;
 		display: block;
 		font-style: italic;
 	}
@@ -767,6 +768,10 @@
 
 	.full-width {
 		width: 100%;
+	}
+
+	.full-height {
+		height: 100%;
 	}
 
 	.fit-content {
