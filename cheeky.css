@@ -602,6 +602,10 @@
 		display: contents;
 	}
 
+	.block {
+		display: block;
+	}
+
 	.grid {
 		display: grid;
 	}
