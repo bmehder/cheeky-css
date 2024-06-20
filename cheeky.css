@@ -1632,7 +1632,8 @@
 		text-align: justify;
 	}
 
-	.text-underline {
+	.text-underline,
+	.hover-text-underline:hover {
 		text-decoration: underline;
 	}
 
