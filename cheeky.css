@@ -2833,6 +2833,10 @@
 		color: var(--jungle-12);
 	}
 
+	.color-inherit {
+		color: inherit;
+	}
+
 	/* Background colors */
 
 	.bg-gray-0 {
