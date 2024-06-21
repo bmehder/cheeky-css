@@ -1847,6 +1847,26 @@
 		object-position: bottom;
 	}
 
+	.text-shadow-1 {
+		text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+	}
+
+	.text-shadow-2 {
+		text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+	}
+
+	.text-shadow-3 {
+		text-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+	}
+
+	.text-shadow-4 {
+		text-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+	}
+
+	.text-shadow-5 {
+		text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+	}
+
 	/* Link colors */
 
 	.gray-0 {
