@@ -306,6 +306,7 @@
 	}
 
 	body {
+		margin: 0;
 		font-family: system-ui, sans-serif;
 		font-size: var(--size);
 		line-height: 1.7;
