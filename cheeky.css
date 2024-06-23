@@ -798,6 +798,10 @@
 		max-width: var(--xs);
 	}
 
+	.max-width-xs-sm {
+		max-width: calc(var(--xs) * 1.5);
+	}
+
 	.max-width-sm {
 		max-width: var(--sm);
 	}
