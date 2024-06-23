@@ -311,6 +311,10 @@
 		line-height: 1.7;
 	}
 
+	:global(body) {
+		margin: 0;
+	}
+
 	h1,
 	.h1,
 	h2,
