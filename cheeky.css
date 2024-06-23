@@ -306,13 +306,10 @@
 	}
 
 	body {
+		margin: 0 !important;
 		font-family: system-ui, sans-serif;
 		font-size: var(--size);
 		line-height: 1.7;
-	}
-
-	:global(body) {
-		margin: 0;
 	}
 
 	h1,
