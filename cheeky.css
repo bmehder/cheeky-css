@@ -6711,6 +6711,10 @@
 			);
 	}
 
+	.border-0 {
+		border: none;
+	}
+
 	.border,
 	.border-1 {
 		border: 1px solid;
