@@ -296,7 +296,7 @@
 		box-sizing: border-box;
 	}
 
-	* {
+	*:not(dialog) {
 		margin: 0;
 		padding: 0;
 	}
@@ -1872,7 +1872,9 @@
 		text-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 	}
 
-	/* Link colors */
+	.text-transparent {
+		color: transparent;
+	}
 
 	.gray-0 {
 		color: var(--gray-0);
