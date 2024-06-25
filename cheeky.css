@@ -528,6 +528,10 @@
 }
 
 @layer utilities {
+	.unset {
+		all: unset;
+	}
+
 	.flow > * + * {
 		--flow-space: 1em;
 
