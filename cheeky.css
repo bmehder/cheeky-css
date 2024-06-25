@@ -296,7 +296,7 @@
 		box-sizing: border-box;
 	}
 
-	*:not(dialog) {
+	* {
 		margin: 0;
 		padding: 0;
 	}
@@ -401,6 +401,11 @@
 		&:is(sup) {
 			top: -0.5em;
 		}
+	}
+
+	dialog {
+		margin-block: auto;
+		margin-inline: auto;
 	}
 
 	a,
