@@ -1674,6 +1674,10 @@
 		text-align: justify;
 	}
 
+	.text-align-inherit {
+		text-align: inherit;
+	}
+
 	.text-underline,
 	.hover-text-underline:hover {
 		text-decoration: underline;
