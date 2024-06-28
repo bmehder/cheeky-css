@@ -566,6 +566,18 @@
 		position: relative;
 	}
 
+	.top-0 {
+		top: 0;
+	}
+
+	.top-0-5 {
+		top: var(--size-0-5);
+	}
+
+	.top-1 {
+		top: var(--size);
+	}
+
 	.left-0 {
 		left: 0;
 	}
@@ -588,6 +600,18 @@
 
 	.right-1 {
 		right: var(--size);
+	}
+
+	.bottom-0 {
+		bottom: 0;
+	}
+
+	.bottom-0-5 {
+		bottom: var(--size-0-5);
+	}
+
+	.bottom-1 {
+		bottom: var(--size);
 	}
 
 	.z-1 {
