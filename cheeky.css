@@ -7032,6 +7032,46 @@
 		outline: 10px solid;
 	}
 
+	.focus-outline-1:focus {
+		outline: 1px solid;
+	}
+
+	.focus-outline-2:focus {
+		outline: 2px solid;
+	}
+
+	.focus-outline-3:focus {
+		outline: 3px solid;
+	}
+
+	.focus-outline-4:focus {
+		outline: 4px solid;
+	}
+
+	.focus-outline-5:focus {
+		outline: 5px solid;
+	}
+
+	.focus-outline-6:focus {
+		outline: 6px solid;
+	}
+
+	.focus-outline-7:focus {
+		outline: 7px solid;
+	}
+
+	.focus-outline-8:focus {
+		outline: 8px solid;
+	}
+
+	.focus-outline-9:focus {
+		outline: 9px solid;
+	}
+
+	.focus-outline-10:focus {
+		outline: 10px solid;
+	}
+
 	.hover-outline-0:hover {
 		outline: 0px solid;
 	}
