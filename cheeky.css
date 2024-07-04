@@ -532,6 +532,10 @@
 		all: unset;
 	}
 
+	.width-unset {
+		width: unset;
+	}
+
 	.flow > * + * {
 		--flow-space: 1em;
 
