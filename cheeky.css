@@ -532,6 +532,10 @@
 		all: unset;
 	}
 
+	.button-unset:not(:focus-visible) {
+		all: unset;
+	}
+
 	.width-unset {
 		width: unset;
 	}
