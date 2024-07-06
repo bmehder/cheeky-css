@@ -533,9 +533,7 @@
 	}
 
 	.button-unset {
-		&:not(:focus-visible) {
-			all: unset;
-		}
+		all: unset;
 		&:focus-visible {
 			outline: -webkit-focus-ring-color auto 1px;
 		}
