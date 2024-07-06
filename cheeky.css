@@ -1753,6 +1753,10 @@
 		text-transform: capitalize;
 	}
 
+	.strikethrough {
+		text-decoration: line-through;
+	}
+
 	.line-height-0 {
 		line-height: 0;
 	}
