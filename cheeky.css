@@ -875,6 +875,10 @@
 		height: 100%;
 	}
 
+	.full-min-height {
+		min-height: 100%;
+	}
+
 	.fit-content {
 		max-width: fit-content;
 	}
