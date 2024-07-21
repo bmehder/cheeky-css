@@ -442,9 +442,12 @@
 		cursor: pointer;
 		transition: all 100ms ease;
 
-		&:is(:hover, :focus-visible) {
+		&:hover {
 			background-color: transparent;
 			color: light-dark(var(--gray-10), var(--gray-0));
+		}
+
+		&:focus-visible {
 			outline: 2px solid light-dark(var(--gray-10), var(--gray-0));
 		}
 	}
