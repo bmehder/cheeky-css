@@ -1762,6 +1762,22 @@
 		text-decoration: none;
 	}
 
+	.text-underline-offset-1 {
+		text-underline-offset: 1px;
+	}
+
+	.text-underline-offset-2 {
+		text-underline-offset: 2px;
+	}
+
+	.text-underline-offset-3 {
+		text-underline-offset: 3px;
+	}
+
+	.text-underline-offset-4 {
+		text-underline-offset: 4px;
+	}
+
 	.uppercase {
 		text-transform: uppercase;
 	}
