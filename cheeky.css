@@ -901,6 +901,10 @@
 		max-width: fit-content;
 	}
 
+	.max-width-xxs {
+		max-width: calc(var(--xs) / 2);
+	}
+
 	.max-width-xs {
 		max-width: var(--xs);
 	}
