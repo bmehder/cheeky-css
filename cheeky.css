@@ -571,6 +571,14 @@
 		margin-block-start: var(--text-size-2);
 	}
 
+	.text-flow-2-5 > * + * {
+		margin-block-start: var(--text-size-2-5);
+	}
+
+	.text-flow-3 > * + * {
+		margin-block-start: var(--text-size-3);
+	}
+
 	.fixed {
 		position: fixed;
 	}
