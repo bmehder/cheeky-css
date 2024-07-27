@@ -410,6 +410,10 @@
 		margin-inline: auto;
 	}
 
+	summary {
+		cursor: pointer;
+	}
+
 	a,
 	.a {
 		color: var(--accent);
