@@ -896,6 +896,30 @@ button,
 	max-width: fit-content;
 }
 
+.min-width-xxs {
+	min-width: calc(var(--xs) / 2);
+}
+
+.min-width-xs {
+	min-width: var(--xs);
+}
+
+.min-width-xs-sm {
+	min-width: calc(var(--xs) * 1.5);
+}
+
+.min-width-sm {
+	min-width: var(--sm);
+}
+
+.min-width-md {
+	min-width: var(--md);
+}
+
+.min-width-lg {
+	min-width: var(--lg);
+}
+
 .max-width-xxs {
 	max-width: calc(var(--xs) / 2);
 }
