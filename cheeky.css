@@ -7143,6 +7143,46 @@ button,
 	outline: 10px solid;
 }
 
+.focus-visible-outline-1:focus-visible {
+	outline: 1px solid;
+}
+
+.focus-visible-outline-2:focus-visible {
+	outline: 2px solid;
+}
+
+.focus-visible-outline-3:focus-visible {
+	outline: 3px solid;
+}
+
+.focus-visible-outline-4:focus-visible {
+	outline: 4px solid;
+}
+
+.focus-visible-outline-5:focus-visible {
+	outline: 5px solid;
+}
+
+.focus-visible-outline-6:focus-visible {
+	outline: 6px solid;
+}
+
+.focus-visible-outline-7:focus-visible {
+	outline: 7px solid;
+}
+
+.focus-visible-outline-8:focus-visible {
+	outline: 8px solid;
+}
+
+.focus-visible-outline-9:focus-visible {
+	outline: 9px solid;
+}
+
+.focus-visible-outline-10:focus-visible {
+	outline: 10px solid;
+}
+
 .hover-outline-0:hover {
 	outline: 0px solid;
 }
