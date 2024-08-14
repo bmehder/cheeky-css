@@ -1769,7 +1769,15 @@ button,
 }
 
 .break-word {
-	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+
+.hyphens-auto {
+	hyphens: auto;
+}
+
+.hyphens-manual {
+	hyphens: manual;
 }
 
 .text-left {
