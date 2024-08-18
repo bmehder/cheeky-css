@@ -1489,6 +1489,16 @@ button,
 	padding-left: var(--size-0-2-5);
 }
 
+.py-0-2-5 {
+	padding-top: var(--size-0-2-5);
+	padding-bottom: var(--size-0-2-5);
+}
+
+.px-0-2-5 {
+	padding-left: var(--size-0-2-5);
+	padding-right: var(--size-0-2-5);
+}
+
 .py-0-5 {
 	padding-top: var(--size-0-5);
 	padding-bottom: var(--size-0-5);
