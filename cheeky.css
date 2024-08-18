@@ -706,12 +706,20 @@ button,
 	display: block;
 }
 
+.inline-block {
+	display: inline-block;
+}
+
 .grid {
 	display: grid;
 }
 
 .flex {
 	display: flex;
+}
+
+.inline-flex {
+	display: inline-flex;
 }
 
 .flex-wrap {
