@@ -7,6 +7,7 @@
 	--lg: 64rem;
 
 	--size: 1.125rem;
+	--size-0-2-5: calc(var(--size) / 4);
 	--size-0-5: calc(var(--size) / 2);
 	--size-1-5: calc(var(--size) * 1.5);
 	--size-2: calc(var(--size) * 2);
@@ -1456,6 +1457,36 @@ button,
 
 .pl-0-5 {
 	padding-left: var(--size-0-5);
+}
+
+.py-0-5 {
+	padding-top: var(--size-0-5);
+	padding-bottom: var(--size-0-5);
+}
+
+.px-0-5 {
+	padding-left: var(--size-0-5);
+	padding-right: var(--size-0-5);
+}
+
+.p-0-2-5 {
+	padding: var(--size-0-2-5);
+}
+
+.pt-0-2-5 {
+	padding-top: var(--size-0-2-5);
+}
+
+.pr-0-2-5 {
+	padding-right: var(--size-0-2-5);
+}
+
+.pb-0-2-5 {
+	padding-bottom: var(--size-0-2-5);
+}
+
+.pl-0-2-5 {
+	padding-left: var(--size-0-2-5);
 }
 
 .py-0-5 {
