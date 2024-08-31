@@ -445,7 +445,7 @@ button,
 	text-wrap: balance;
 	text-decoration: none;
 	border: none;
-	cursor: pointer;
+	/* cursor: pointer; */
 	transition: all 100ms ease;
 
 	/* &:hover {
