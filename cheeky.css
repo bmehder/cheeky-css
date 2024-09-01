@@ -747,6 +747,10 @@ button,
 	flex: 4;
 }
 
+.gap-0-2-5 {
+	gap: var(--size-0-2-5);
+}
+
 .gap-0-5 {
 	gap: var(--size-0-5);
 }
