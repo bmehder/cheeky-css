@@ -509,8 +509,7 @@ button,
 }
 
 .columns {
-	--width: 20rem;
-	column-width: var(--width);
+	column-width: var(--column-width, 20rem);
 }
 
 .column-width-16 {
