@@ -508,6 +508,23 @@ button,
 	min-height: 100dvh;
 }
 
+.columns {
+	--width: 20rem;
+	column-width: var(--width);
+}
+
+.column-width-16 {
+	column-width: 16rem;
+}
+
+.column-width-24 {
+	column-width: 24rem;
+}
+
+.column-width-32 {
+	column-width: 32rem;
+}
+
 .auto-fit {
 	--min: var(--xs);
 
