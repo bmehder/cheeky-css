@@ -525,6 +525,10 @@ button,
 	column-width: 32rem;
 }
 
+.column-span-all {
+	column-span: all;
+}
+
 .auto-fit {
 	--min: var(--xs);
 
