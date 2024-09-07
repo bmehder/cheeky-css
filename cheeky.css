@@ -359,6 +359,11 @@ h6,
 	font-size: 0.67rem;
 }
 
+p,
+li {
+	max-width: 75ch;
+}
+
 menu,
 ol,
 ul {
