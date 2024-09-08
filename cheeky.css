@@ -5,6 +5,7 @@
 	--sm: 32rem;
 	--md: 48rem;
 	--lg: 64rem;
+	--xl: 80rem;
 
 	--size: 1rem;
 	--size-0-2-5: calc(var(--size) / 4);
@@ -417,6 +418,18 @@ dialog {
 
 summary {
 	cursor: pointer;
+}
+
+details {
+	& summary::after {
+		content: '\276f';
+		transition: 100ms;
+	}
+
+	&[open] summary::after {
+		rotate: 90deg;
+		transform-origin: center;
+	}
 }
 
 a,
@@ -1827,6 +1840,10 @@ button,
 
 .break-word {
 	overflow-wrap: break-word;
+}
+
+.break-inside-avoid {
+	break-inside: avoid;
 }
 
 .hyphens-auto {
