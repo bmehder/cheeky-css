@@ -786,7 +786,7 @@ button,
 }
 
 .subgrid {
-	display: subgrid;
+	grid-template-rows: subgrid;
 }
 
 .flex {
