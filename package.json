@@ -1,6 +1,6 @@
 {
 	"name": "cheekycss",
-	"version": "1.3.3",
+	"version": "1.3.5",
 	"description": "A personal utility css framework",
 	"main": "cheeky.css",
 	"scripts": {
