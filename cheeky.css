@@ -785,6 +785,10 @@ button,
 	display: grid;
 }
 
+.subgrid {
+	display: subgrid;
+}
+
 .flex {
 	display: flex;
 }
