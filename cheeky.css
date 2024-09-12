@@ -536,7 +536,7 @@ button,
 
 .base-layout {
 	--max-width: var(--lg);
-	--padding: var(--size);
+	--padding: var(--size-2);
 
 	display: grid;
 	grid-template-columns:
@@ -545,7 +545,7 @@ button,
 		minmax(var(--padding), 1fr);
 
 	& > * {
-		grid-column: 2/3;
+		grid-column: 2 / 3;
 	}
 
 	& > .full-width {
