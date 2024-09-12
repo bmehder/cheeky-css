@@ -536,7 +536,7 @@ button,
 
 .base-layout {
 	--max-width: var(--lg);
-	--padding: var(--size-2);
+	--padding: var(--size);
 
 	display: grid;
 	grid-template-columns:
