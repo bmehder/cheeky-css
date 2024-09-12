@@ -534,6 +534,25 @@ button,
 		}
 	}
 
+.base-layout {
+	--max-width: var(--lg);
+	--padding: var(--size-2);
+
+	display: grid;
+	grid-template-columns:
+		minmax(var(--padding), 1fr)
+		min(var(--max-width), 100% - var(--padding) * 2)
+		minmax(var(--padding), 1fr);
+
+	& > * {
+		grid-column: 2/3;
+	}
+
+	& > .full-width {
+		grid-column: 1 / -1;
+	}
+}
+
 .wrapper {
 	min-block-size: 100dvh;
 	display: grid;
@@ -2157,6 +2176,10 @@ button,
 
 .text-transparent {
 	color: transparent;
+}
+
+.current-color {
+	color: currentColor;
 }
 
 .gray-0 {
