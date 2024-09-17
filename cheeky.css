@@ -435,15 +435,7 @@ details {
 
 a,
 .a {
-	color: var(--accent);
-
-	&:hover {
-		color: var(--accent);
-		text-decoration: none;
-	}
-
-	&:focus-visible {
-		color: var(--accent);
+	&:where(:hover, :focus-visible) {
 		text-decoration: none;
 	}
 }
@@ -535,14 +527,14 @@ button,
 	}
 
 .base-layout {
-	--max-width: var(--lg);
-	--padding: var(--size-2);
+	--center-width: var(--lg);
+	--sides-width: var(--size-2);
 
 	display: grid;
 	grid-template-columns:
-		minmax(var(--padding), 1fr)
-		min(var(--max-width), 100% - var(--padding) * 2)
-		minmax(var(--padding), 1fr);
+		minmax(var(--sides-width), 1fr)
+		min(var(--center-width), 100% - var(--sides-width) * 2)
+		minmax(var(--sides-width), 1fr);
 
 	& > * {
 		grid-column: 2 / 3;
