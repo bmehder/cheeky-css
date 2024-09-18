@@ -572,16 +572,16 @@ button,
 	column-width: var(--column-width, 20rem);
 }
 
-.column-width-16 {
-	column-width: 16rem;
+.column-width-xs {
+	column-width: var(--xs);
 }
 
-.column-width-24 {
-	column-width: 24rem;
+.column-width-xs-sm {
+	column-width: calc(var(--xs) * 1.5);
 }
 
-.column-width-32 {
-	column-width: 32rem;
+.column-width-sm {
+	column-width: var(--sm);
 }
 
 .column-span-all {
