@@ -439,6 +439,10 @@ a,
 	}
 }
 
+button {
+	font: inherit;
+}
+
 .button {
 	display: inline-flex;
 	place-content: center;
