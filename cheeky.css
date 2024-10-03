@@ -607,7 +607,7 @@ button,
 
 .boxed {
 	--boxed-padding: var(--size-4);
-	--boxed-lg: var(--lg)
+	--boxed-lg: var(--lg);
 
 	inline-size: min(100% - var(--boxed-padding), var(--boxed-lg));
 	margin-inline: auto;
@@ -633,13 +633,13 @@ button,
 
 .column-width-xs {
 	--column-width: var(--xs);
-	
+
 	column-width: var(--column-width);
 }
 
 .column-width-xs-sm {
 	--column-width: calc(var(--xs) * 1.5);
-	
+
 	column-width: var(--column-width);
 }
 
@@ -711,9 +711,9 @@ button,
 }
 
 .flow > * + * {
-	--flow-space: 1.5em;
+	--flow: var(--text-size-1-5);
 
-	margin-block-start: var(--flow-space);
+	margin-block-start: var(--flow);
 }
 
 .flow-0-2-5 > * + *,
@@ -893,11 +893,28 @@ button,
 	display: flex;
 }
 
+.flex-row {
+	flex-direction: row;
+}
+
+.flex-row-reverse {
+	flex-direction: row-reverse;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.flex-column-reverse {
+	flex-direction: column-reverse;
+}
+
 .inline-flex {
 	display: inline-flex;
 }
 
-.flex-wrap, .wrap {
+.flex-wrap,
+.wrap {
 	flex-wrap: wrap;
 }
 
@@ -927,6 +944,64 @@ button,
 
 .flex-6 {
 	flex: 6;
+}
+
+.flex-grow {
+	--flex-grow: 1;
+
+	flex-grow: var(--flex-grow);
+}
+
+.flex-grow-0 {
+	flex-grow: 0;
+}
+
+.flex-grow-1 {
+	flex-grow: 1;
+}
+
+.flex-grow-2 {
+	flex-grow: 2;
+}
+
+.flex-grow-3 {
+	flex-grow: 3;
+}
+
+.flex-grow-4 {
+	flex-grow: 4;
+}
+
+.flex-shrink {
+	--flex-shrink: ;
+
+	flex-shrink: var(--flex-shrink);
+}
+
+.flex-shrink-0 {
+	flex-shrink: 0;
+}
+
+.flex-shrink-1 {
+	flex-shrink: 1;
+}
+
+.flex-shrink-2 {
+	flex-shrink: 2;
+}
+
+.flex-shrink-3 {
+	flex-shrink: 3;
+}
+
+.flex-shrink-4 {
+	flex-shrink: 4;
+}
+
+.gap {
+	--gap: var(--size);
+
+	gap: var(--gap);
 }
 
 .gap-0-2-5 {
@@ -2078,27 +2153,35 @@ button,
 	font-weight: 300;
 }
 
-.fw-400, .normal {
+.fw-400,
+.normal {
 	font-weight: 400;
 }
 
-.fw-500, .text-medium {
+.fw-500,
+.text-medium {
 	font-weight: 500;
 }
 
-.fw-600, .semibold {
+.fw-600,
+.semibold {
 	font-weight: 600;
 }
 
-.fw-700, .bold {
+.fw-700,
+.bold {
 	font-weight: 700;
 }
 
-.fw-800, .extra-bold, .x-bold {
+.fw-800,
+.extra-bold,
+.x-bold {
 	font-weight: 800;
 }
 
-.fw-900, .text-heavy, .heavy {
+.fw-900,
+.text-heavy,
+.heavy {
 	font-weight: 900;
 }
 
@@ -7489,11 +7572,13 @@ button,
 	background-position: center;
 }
 
-.cover, .bg-cover {
+.cover,
+.bg-cover {
 	background-size: cover;
 }
 
-.contain, .bg-contain {
+.contain,
+.bg-contain {
 	background-size: contain;
 }
 
@@ -7568,4 +7653,29 @@ button,
 
 	background-color: var(--bg);
 	color: var(--fg);
+}
+
+.hanging {
+	hanging-punctuation: first last;
+}
+
+.hanging-punctuation-none {
+	hanging-punctuation: none;
+}
+
+.hanging-punctuation-first {
+	hanging-punctuation: first;
+}
+
+.hanging-punctuation-last {
+	hanging-punctuation: last;
+}
+
+.hanging-punctuation-allow-end,
+.hanging-punctuation-allow {
+	hanging-punctuation: allow-end;
+}
+
+.hanging-punctuation-unset {
+	hanging-punctuation: unset;
 }
