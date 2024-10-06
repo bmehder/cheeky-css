@@ -455,6 +455,11 @@ select {
 	font-size: inherit;
 }
 
+input,
+textarea {
+	padding: var(--size-0-5);
+}
+
 textarea:not([rows]) {
 	min-height: 10em;
 }
@@ -566,7 +571,7 @@ button,
 				[breakout-end]
 				var(--full-width)
 			[full-width-end];
-		align-items: start;
+		align-content: start;
 			
 		& > :not(.breakout, .full-width),
 		.full-width > :not(.breakout, .full-width) {
@@ -575,7 +580,7 @@ button,
 		
 		& > .breakout {
 			grid-column: breakout;
-			padding: var(--padding);
+			/* padding: var(--padding); */
 		}
 		
 		& > .full-width {
@@ -587,8 +592,8 @@ button,
 	}
 
 .base-layout {
-	--center-width: var(--lg);
 	--sides-width: var(--size-2);
+	--center-width: var(--lg);
 
 	display: grid;
 	grid-template-columns:
@@ -605,18 +610,18 @@ button,
 	}
 }
 
+.boxed {
+	--boxed-padding: var(--size-2);
+	--boxed-lg: var(--lg);
+
+	inline-size: min(100% - (var(--boxed-padding) * 2), var(--boxed-lg));
+	margin-inline: auto;
+}
+
 .wrapper {
 	min-block-size: 100dvh;
 	display: grid;
 	grid-template-rows: auto 1fr auto;
-}
-
-.boxed {
-	--boxed-padding: var(--size-4);
-	--boxed-lg: var(--lg);
-
-	inline-size: min(100% - var(--boxed-padding), var(--boxed-lg));
-	margin-inline: auto;
 }
 
 .full-screen-center {
@@ -1167,7 +1172,6 @@ button,
 	place-self: end;
 }
 
-.full-width,
 .width-100 {
 	width: 100%;
 }
