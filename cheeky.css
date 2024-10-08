@@ -548,12 +548,13 @@ button,
 
 /* prettier-ignore */
 .content-grid {
-		--padding: 2rem;
-		--content-max-width: 64rem;
-		--breakout-max-width: 72rem;
+		--padding: var(--size-2);
+		--content-max-width: var(--lg);
+		--breakout-max-width: calc(var(--lg) + var(--xxs));
 		
 		/* Derived Values: MC Hammer - U Can't touch this! */
 		--padding-inline: var(--padding);
+		
 		--full-width: minmax(var(--padding-inline), 1fr);
 		--breakout-size: minmax(0, calc((var(--breakout-max-width) - var(--content-max-width)) / 2));
 		--content-size: min(100% - (var(--padding-inline) * 2), var(--content-max-width));
@@ -7693,4 +7694,13 @@ button,
 
 .hanging-punctuation-unset {
 	hanging-punctuation: unset;
+}
+
+.image-shape-right {
+	float: right;
+	width: clamp(var(--xs), 40vw, var(--sm));
+	background-position: center;
+	background-size: cover;
+	shape-margin: var(--size-2);
+	/* shape-outside: url('/man.png'); */
 }
