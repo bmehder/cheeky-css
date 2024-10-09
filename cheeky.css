@@ -2071,6 +2071,10 @@ button,
 	font-style: italic;
 }
 
+.white-space-nowrap {
+	white-space: nowrap;
+}
+
 .break-word {
 	overflow-wrap: break-word;
 }
@@ -7558,6 +7562,10 @@ button,
 
 .grayscale {
 	filter: grayscale();
+}
+
+.scale-95 {
+	scale: 0.95;
 }
 
 .overlay {
