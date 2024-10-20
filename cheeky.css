@@ -641,6 +641,14 @@ button:hover,
 	place-content: center;
 }
 
+.spread-apart {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1.5rem;
+}
+
 .dvh-100 {
 	min-height: 100dvh;
 }
