@@ -612,7 +612,8 @@ button,
 	}
 }
 
-.boxed {
+.boxed,
+.inner {
 	--boxed-padding: var(--size-2);
 	--boxed-lg: var(--lg);
 

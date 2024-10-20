@@ -1,0 +1,50 @@
+:root {
+	--size: 1.5rem;
+}
+
+.boxed {
+	--gutters: var(--size);
+	--max-width: 70rem;
+
+	width: min(100% - (var(--gutters) * 2), var(--max-width));
+	margin-inline: auto;
+}
+
+.space {
+	--padding-block: calc(var(--size) * 2);
+
+	padding-block: var(--padding-block);
+}
+
+.flow > * + * {
+	--flow: var(--size);
+
+	margin-top: var(--flow);
+}
+
+.auto-fit {
+	--min: 16rem;
+	--gap: calc(var(--size) * 2);
+
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(var(--min), 100%), 1fr));
+	gap: var(--gap);
+}
+
+.columns {
+	--column-width: 20rem;
+	--gap: calc(var(--size) * 2);
+
+	column-width: var(--column-width);
+	gap: var(--gap);
+}
+
+.centered-and-space-between {
+	--gap: var(--size);
+
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	gap: var(--gap);
+}
