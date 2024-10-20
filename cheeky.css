@@ -521,6 +521,7 @@ button,
 	padding-block: var(--size-0-5);
 	padding-inline: var(--size-1-5);
 	font: inherit;
+	line-height: inherit;
 	font-weight: 600;
 	text-wrap: balance;
 	text-align: center;
@@ -528,6 +529,11 @@ button,
 	border: none;
 	transition: all 100ms ease;
 	cursor: pointer;
+}
+
+button:hover,
+.button:hover {
+	text-decoration: none;
 }
 
 .form {
