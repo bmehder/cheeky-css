@@ -522,7 +522,7 @@ button,
 	padding-inline: var(--size-1-5);
 	font: inherit;
 	line-height: inherit;
-	font-weight: 600;
+	/* font-weight: 600; */
 	text-wrap: balance;
 	text-align: center;
 	text-decoration: none;
