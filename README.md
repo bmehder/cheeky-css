@@ -6,12 +6,18 @@ CheekyCSS is a lightweight functional CSS library designed to make styling your 
 
 You can start using CheekyCSS in your project in two easy ways:
 
-### 1. Link via GitHub Pages
+### 1. Use a CDN
 
-Add the following `<link>` tag to the `<head>` of your HTML file to include CheekyCSS directly from GitHub Pages:
+Add the following `<link>` tag to the `<head>` of your HTML file to include CheekyCSS directly from a CDN such as [jsDelivr](https://www.jsdelivr.com/) or [unpkg](https://unpkg.com/). This will always serve the latest npm package version:
 
 ```html
-<link rel="stylesheet" href="https://bradleymehder.github.io/cheekycss/cheeky.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cheekycss/cheeky.css" />
+```
+
+_Alternatively, you can use unpkg:_
+
+```html
+<link rel="stylesheet" href="https://unpkg.com/cheekycss/cheeky.css" />
 ```
 
 ### 2. Copy the CSS file (recommended)
@@ -29,26 +35,29 @@ Here is a simple example demonstrating how to use CheekyCSS utility classes in y
 ```html
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>CheekyCSS Example</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/cheekycss/cheeky.css"
+		/>
+	</head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CheekyCSS Example</title>
-  <link rel="stylesheet" href="https://bmehder.github.io/cheeky-css/cheeky.css" />
-</head>
+	<body class="p-4 text-center">
+		<h1 class="margin-block-4">Welcome to CheekyCSS</h1>
 
-<body class="p-4 text-center">
-  <h1 class="mb-4">Welcome to CheekyCSS</h1>
+		<div
+			class="flex flex-wrap justify-content-center gap-2 margin-block-4 text-center"
+		>
+			<div class="p-3">Box 1</div>
+			<div class="p-3">Box 2</div>
+			<div class="p-3">Box 3</div>
+		</div>
 
-  <div class="flex justify-content-center flex-wrap gap-2 mb-4 text-center">
-    <div class="p-3">Box 1</div>
-    <div class="p-3">Box 2</div>
-    <div class="p-3">Box 3</div>
-  </div>
-
-  <p class="italic">Simple, clean, and easy to use.</p>
-</body>
-
+		<p class="italic">Simple, clean, and easy to use.</p>
+	</body>
 </html>
 ```
 
