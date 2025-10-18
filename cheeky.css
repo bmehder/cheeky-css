@@ -1097,16 +1097,16 @@
 .order-last {
 	order: 9999;
 }
-.justify-center {
+.justify-content-center {
 	justify-content: center;
 }
-.justify-between {
+.justify-content-between {
 	justify-content: space-between;
 }
-.justify-start {
+.justify-content-start {
 	justify-content: start;
 }
-.justify-end {
+.justify-content-end {
 	justify-content: end;
 }
 .justify-items-stretch {

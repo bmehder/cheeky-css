@@ -29,26 +29,26 @@ Here is a simple example demonstrating how to use CheekyCSS utility classes in y
 ```html
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>CheekyCSS Example</title>
-		<link
-			rel="stylesheet"
-			href="https://bradleymehder.github.io/cheekycss/cheeky.css"
-		/>
-	</head>
-	<body class="p-4">
-		<h1 class="text-center mb-4">Welcome to CheekyCSS</h1>
 
-		<div class="flex gap-2 mb-4">
-			<div class="p-3 text-center">Box 1</div>
-			<div class="p-3 text-center">Box 2</div>
-			<div class="p-3 text-center">Box 3</div>
-		</div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CheekyCSS Example</title>
+  <link rel="stylesheet" href="https://bmehder.github.io/cheeky-css/cheeky.css" />
+</head>
 
-		<p class="text-center">Simple, clean, and easy to use.</p>
-	</body>
+<body class="p-4 text-center">
+  <h1 class="mb-4">Welcome to CheekyCSS</h1>
+
+  <div class="flex justify-content-center flex-wrap gap-2 mb-4 text-center">
+    <div class="p-3">Box 1</div>
+    <div class="p-3">Box 2</div>
+    <div class="p-3">Box 3</div>
+  </div>
+
+  <p class="italic">Simple, clean, and easy to use.</p>
+</body>
+
 </html>
 ```
 
