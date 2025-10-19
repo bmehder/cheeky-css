@@ -120,8 +120,8 @@ a {
   cursor: pointer;
 }
 
-a:hover,
-a:focus {
+a:hover:not(.btn),
+a:focus:not(.btn) {
   text-decoration: underline;
 }
 
