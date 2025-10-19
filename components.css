@@ -1,0 +1,46 @@
+header {
+  .outer {
+    background-color: var(--accent);
+    color: var(--text-inverse);
+
+    a {
+      color: var(--text-inverse);
+    }
+  }
+}
+
+.card {
+  max-width: var(--xs);
+  background-color: var(--bg-primary);
+  border: var(--border-width-thin) var(--border-style-solid) var(--border-color-default);
+  border-radius: var(--border-radius-large);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  
+  .card-header,
+  .card-body,
+  .card-footer {
+    padding: var(--size);
+  }
+  
+  .card-header {
+    border-bottom: var(--border-width-thin) var(--border-style-solid) var(--border-color-default);
+    font-weight: var(--font-weight-semibold);
+    background-color: var(--accent);
+    color: var(--text-inverse);
+  }
+  
+  .card-footer {
+    border-top: var(--border-width-thin) var(--border-style-solid) var(--border-color-default);
+    background-color: var(--bg-alt);
+  }
+}
+
+footer {
+  .outer {
+    color: var(--text-inverse);
+    background-color: var(--accent);
+  }
+}

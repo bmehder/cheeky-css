@@ -151,6 +151,11 @@
 	margin-block: var(--size-8, 8rem);
 }
 
+.margin-block-auto,
+.mb-auto {
+	margin-block: auto;
+}
+
 .margin-inline-0,
 .mi-0 {
 	margin-inline: 0;
@@ -206,6 +211,11 @@
 .margin-inline-8,
 .mi-8 {
 	margin-inline: var(--size-8, 8rem);
+}
+
+.margin-inline-auto,
+.mi-auto {
+	margin-inline: auto;
 }
 
 /* Margin - block/inline start/end longhands */
@@ -1186,7 +1196,7 @@
 	--inner-width: var(--size-3);
 	--inner-padding-block: var(--size-6);
 
-	inline-size: min(100% - var(--inner-width), var(--xl));
+	inline-size: min(100% - var(--inner-width), var(--lg));
 	margin-inline: auto;
 	padding-block: var(--inner-padding-block);
 }
@@ -1201,14 +1211,10 @@
 
 /* Flex/grid helpers */
 .auto-fit {
-	grid-template-columns: repeat(auto-fit, minmax(var(--size-10, 10rem), 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(var(--xs, 10rem), 1fr));
 }
 .auto-fill {
-	grid-template-columns: repeat(auto-fill, minmax(var(--size-10, 10rem), 1fr));
-}
-.spread-apart {
-	justify-content: space-between;
-	align-items: center;
+	grid-template-columns: repeat(auto-fill, minmax(var(--xs, 10rem), 1fr));
 }
 
 /* Flex grow/shrink helpers */
@@ -1329,6 +1335,30 @@
 }
 .list-style-none {
 	list-style: none;
+}
+
+/* Border utilities */
+.border {
+	border: 1px solid currentColor;
+}
+.border-0 {
+	border: 0;
+}
+.border-block-start,
+.border-bs {
+	border-block-start: 1px solid currentColor;
+}
+.border-block-end,
+.border-be {
+	border-block-end: 1px solid currentColor;
+}
+.border-inline-start,
+.border-is {
+	border-inline-start: 1px solid currentColor;
+}
+.border-inline-end,
+.border-ie {
+	border-inline-end: 1px solid currentColor;
 }
 .border-none {
 	border: none;

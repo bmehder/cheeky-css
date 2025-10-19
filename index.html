@@ -6,20 +6,134 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>CheekyCSS Example</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cheekycss/cheeky.css" />
+  <link rel="stylesheet" href="/reboot.css" />
+  <link rel="stylesheet" href="/cheeky.css" />
+  <link rel="stylesheet" href="/colors.css" />
+  <link rel="stylesheet" href="/theme.css" />
+  <link rel="stylesheet" href="/components.css" />
 </head>
 
-<body class="p-4 text-center">
-  <!-- Using verbose class name -->
-  <h1 class="margin-block-4">Welcome to CheekyCSS</h1>
-
-  <div class="flex flex-wrap justify-content-center gap-2 mb-4 text-center">
-    <div class="p-3">Box 1</div>
-    <div class="p-3">Box 2</div>
-    <div class="p-3">Box 3</div>
-  </div>
-
-  <p class="italic">Simple, clean, and easy to use.</p>
+<body>
+  <header>
+    <div class="outer">
+      <div class="inner" style="--inner-padding-block: var(--size-3)">
+        <div class="content flex flex-wrap justify-content-between align-items-center gap-1">
+          <div class="logo">Logo</div>
+          <nav>
+            <ul class="list-style-none">
+              <li><a href="/">Home</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div>
+      <div class="outer">
+        <div class="inner">
+          <div class="content">
+            <h1 class="text-center">Welcome to CheekyCSS</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="outer text-center">
+        <div class="inner">
+          <div class="content">
+            <div class="flex flex-wrap justify-content-center gap-2">
+              <div class="p-3 border">Box 1</div>
+              <div class="p-3 border">Box 2</div>
+              <div class="p-3 border">Box 3</div>
+            </div>
+          </div>
+          <p class="margin-inline-auto padding-block-2 italic">Simple, clean, and easy to use.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Small Heading Section -->
+    <section>
+      <div class="outer bg-secondary">
+        <div class="inner">
+          <div class="content">
+            <h1 class="mb-2">Heading 1</h1>
+            <h2 class="mb-1">Heading 2</h2>
+            <h3 class="mb-0">Heading 3</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Buttons Section -->
+    <section>
+      <div class="outer">
+        <div class="inner">
+          <div class="content flex flex-wrap justify-content-center gap-1">
+            <button class="btn btn-primary">Primary Button</button>
+            <button class="btn btn-secondary">Secondary Button</button>
+            <button class="btn btn-success">Success Button</button>
+            <button class="btn btn-error">Error Button</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Card Example -->
+    <section>
+      <div class="outer bg-secondary">
+        <div class="inner">
+          <div class="content">
+            <div class="card">
+              <div class="card-header">Card Header</div>
+              <div class="card-body">
+                <div class="card-title bold">Card Title</div>
+                <p class="card-text">This is a simple card example using CheekyCSS utilities and structure.</p>
+              </div>
+              <div class="card-footer">Card Footer</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Flexbox/Grid Demo -->
+    <section>
+      <div class="outer">
+        <div class="inner">
+          <div class="content">
+            <!-- <div class="flex flex-wrap justify-content-center gap-3"> -->
+            <div class="grid auto-fill justify-content-center gap-3 text-center">
+              <div class="p-4 border">Flex / Grid Box 1</div>
+              <div class="p-4 border">Flex / Grid Box 2</div>
+              <div class="p-4 border">Flex / Grid Box 3</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Text Helpers Demo -->
+    <section>
+      <div class="outer bg-secondary">
+        <div class="inner">
+          <div class="content">
+            <p>
+              <span class="italic">This is italic,</span>
+              <span class="font-bold"> this is bold,</span>
+              <span class="uppercase"> this is uppercase,</span>
+              <span class="text-muted"> and this is muted.</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="outer">
+      <div class="inner" style="--inner-padding-block: var(--size-1-5)">
+        <div class="content text-center">
+          © Copyright 2025 Tom Foolery. All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>

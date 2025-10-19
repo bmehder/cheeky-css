@@ -1,0 +1,183 @@
+:root {
+  /* Typography */
+  --font-family-base: 'Helvetica Neue', Arial, sans-serif;
+  --font-size-base: 1rem;
+
+  /* Headings */
+  --font-size-h1: 2rem;
+  --font-size-h2: 1.75rem;
+  --font-size-h3: 1.5rem;
+  --font-size-h4: 1.25rem;
+
+  /* Line Heights */
+  --line-height-base: 1.5;
+  --line-height-heading: 1.2;
+
+  /* Font Weights */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Semantic Colors */
+  --bg-primary: white;
+  --bg-secondary: var(--neutral-100);
+  --bg-alt: var(--neutral-50);
+
+  --text-primary: var(--stone-900);
+  --text-inverse: var(--stone-50);
+  --text-link: var(--blue-600);
+  --text-muted: var(--stone-500);
+
+  --accent: var(--blue-600);
+  --accent-alt: var(--green-600);
+  --error: var(--red-600);
+  --success: var(--green-500);
+
+  /* Borders and Radius */
+  --border-radius-base: 8px;
+  --border-radius-large: 12px;
+  --border-color-default: var(--gray-300);
+  --border-width-thin: 1px;
+  --border-style-solid: solid;
+
+  /* Shadows */
+  --shadow-small: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+  /* Semantic Shadow Aliases */
+  --shadow-card: var(--shadow-small);
+}
+
+/* Color utilities */
+.bg-primary {
+  background-color: var(--bg-primary);
+}
+
+.bg-secondary {
+  background-color: var(--bg-secondary);
+}
+
+.bg-alt {
+  background-color: var(--bg-alt);
+}
+
+.text-primary {
+  color: var(--text-primary);
+}
+
+.text-link {
+  color: var(--text-link);
+}
+
+.text-inverse {
+  color: var(--text-inverse);
+}
+
+.text-muted {
+  color: var(--text-muted);
+}
+
+.accent {
+  color: var(--accent);
+}
+
+.accent-alt {
+  color: var(--accent-alt);
+}
+
+.success {
+  color: var(--success);
+}
+
+.error {
+  color: var(--error);
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-block-start: 0;
+  margin-block-end: var(--size-0-5);
+  color: var(--text-primary);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-heading);
+}
+
+h1 { font-size: var(--font-size-h1); }
+h2 { font-size: var(--font-size-h2); }
+h3 { font-size: var(--font-size-h3); }
+h4 { font-size: var(--font-size-h4); }
+
+a {
+  color: var(--text-link);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+.btn {
+  display: inline-block;
+  padding-block: var(--size-0-5);
+  padding-inline: var(--size);
+  background-color: var(--accent);
+  color: var(--text-inverse);
+  text-align: center;
+  text-decoration: none;
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  border: none;
+  border-radius: var(--border-radius-base);
+  user-select: none;
+  transition: background-color 0.1s ease;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: var(--accent);
+  color: var(--text-inverse);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: color-mix(in srgb, var(--accent) 80%, black);
+}
+
+.btn-secondary {
+  background-color: var(--accent-alt);
+  color: var(--text-inverse);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: color-mix(in srgb, var(--accent-alt) 80%, black);
+}
+
+.btn-success {
+  background-color: var(--success);
+  color: var(--text-inverse);
+}
+
+.btn-success:hover,
+.btn-success:focus {
+  background-color: color-mix(in srgb, var(--success) 80%, black);
+}
+
+.btn-error {
+  background-color: var(--error);
+  color: var(--text-inverse);
+}
+
+.btn-error:hover,
+.btn-error:focus {
+  background-color: color-mix(in srgb, var(--error) 80%, black);
+}
