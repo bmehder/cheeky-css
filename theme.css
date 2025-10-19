@@ -43,9 +43,6 @@
 
   /* Shadows */
   --shadow-small: 0 1px 3px rgba(0, 0, 0, 0.1);
-
-  /* Semantic Shadow Aliases */
-  --shadow-card: var(--shadow-small);
 }
 
 /* Color utilities */
@@ -65,12 +62,12 @@
   color: var(--text-primary);
 }
 
-.text-link {
-  color: var(--text-link);
-}
-
 .text-inverse {
   color: var(--text-inverse);
+}
+
+.text-link {
+  color: var(--text-link);
 }
 
 .text-muted {
@@ -101,7 +98,7 @@ body {
   line-height: var(--line-height-base);
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
   margin-block-start: 0;
   margin-block-end: var(--size-0-5);
   color: var(--text-primary);
@@ -116,17 +113,18 @@ h4 { font-size: var(--font-size-h4); }
 
 a {
   color: var(--text-link);
-  text-decoration: none;
-  cursor: pointer;
-}
 
-a:hover:not(.btn),
-a:focus:not(.btn) {
-  text-decoration: underline;
+  &:where(:hover:not(.btn), :focus:not(.btn)) {
+    text-decoration: none;
+  }
 }
 
 .btn {
-  display: inline-block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: var(--size-0-5);
   padding-block: var(--size-0-5);
   padding-inline: var(--size);
   background-color: var(--accent);
@@ -140,44 +138,41 @@ a:focus:not(.btn) {
   user-select: none;
   transition: background-color 0.1s ease;
   cursor: pointer;
+  
+  &.btn-primary {
+    background-color: var(--accent);
+    color: var(--text-inverse);
+    
+    &:where(:hover, :focus) {
+      background-color: color-mix(in srgb, var(--accent) 80%, black);
+    }
+  }
+  
+  &.btn-secondary {
+    background-color: var(--accent-alt);
+    color: var(--text-inverse);
+    
+    &:where(:hover, :focus) {
+      background-color: color-mix(in srgb, var(--accent-alt) 80%, black);
+    }
+  }
+  
+  &.btn-success {
+    background-color: var(--success);
+    color: var(--text-inverse);
+    
+    &:where(:hover, :focus) {
+      background-color: color-mix(in srgb, var(--success) 80%, black);
+    }
+  }
+  
+  &.btn-error {
+    background-color: var(--error);
+    color: var(--text-inverse);
+    
+    &:where(:hover, :focus) {
+      background-color: color-mix(in srgb, var(--error) 80%, black);
+    }
+  }
 }
-
-.btn-primary {
-  background-color: var(--accent);
-  color: var(--text-inverse);
-}
-
-.btn-primary:hover,
-.btn-primary:focus {
-  background-color: color-mix(in srgb, var(--accent) 80%, black);
-}
-
-.btn-secondary {
-  background-color: var(--accent-alt);
-  color: var(--text-inverse);
-}
-
-.btn-secondary:hover,
-.btn-secondary:focus {
-  background-color: color-mix(in srgb, var(--accent-alt) 80%, black);
-}
-
-.btn-success {
-  background-color: var(--success);
-  color: var(--text-inverse);
-}
-
-.btn-success:hover,
-.btn-success:focus {
-  background-color: color-mix(in srgb, var(--success) 80%, black);
-}
-
-.btn-error {
-  background-color: var(--error);
-  color: var(--text-inverse);
-}
-
-.btn-error:hover,
-.btn-error:focus {
-  background-color: color-mix(in srgb, var(--error) 80%, black);
-}
+  

@@ -10,14 +10,14 @@ header {
 }
 
 .card {
+  --shadow-card: var(--shadow-small);
+
   max-width: var(--xs);
   background-color: var(--bg-primary);
   border: var(--border-width-thin) var(--border-style-solid) var(--border-color-default);
   border-radius: var(--border-radius-large);
   box-shadow: var(--shadow-card);
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
   
   .card-header,
   .card-body,
@@ -34,7 +34,6 @@ header {
   
   .card-footer {
     border-top: var(--border-width-thin) var(--border-style-solid) var(--border-color-default);
-    background-color: var(--bg-alt);
   }
 }
 
