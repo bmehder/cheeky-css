@@ -1,5 +1,4 @@
 /* =========================
-   CheekyCSS v2
    Design Tokens
    ========================= */
 :root {
@@ -30,10 +29,7 @@
 }
 
 /* =========================
-   Spacing
-   ========================= */
-/* =========================
-   Logical Spacing Utilities
+   Spacing Utilities
    ========================= */
 /* Margin - full shorthand */
 .margin-0,
@@ -864,11 +860,13 @@
 .italic {
 	font-style: italic;
 }
+
+/* =========================
+   Text Alignment
+   ========================= */
 .text-center {
 	text-align: center;
 }
-
-/* Text alignment utilities */
 .text-left {
 	text-align: left;
 }
@@ -879,12 +877,16 @@
 	text-align: justify;
 }
 
+/* =========================
+   Text Decoration
+   ========================= */
 .linethrough {
 	text-decoration: line-through;
 }
 
-
-/* Text transformation utilities */
+/* =========================
+   Text Transformation
+   ========================= */
 .uppercase {
 	text-transform: uppercase;
 }
@@ -895,7 +897,9 @@
 	text-transform: capitalize;
 }
 
-/* Text helpers */
+/* =========================
+   Text Wrapping
+   ========================= */
 .truncate {
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -909,7 +913,7 @@
 }
 
 /* =========================
-   Display utilities
+   Display
    ========================= */
 .hidden {
 	display: none;
@@ -925,7 +929,7 @@
 }
 
 /* =========================
-   Visibility utilities
+   Visibility
    ========================= */
 .visible {
 	visibility: visible;
@@ -935,7 +939,7 @@
 }
 
 /* =========================
-   Overflow utilities
+   Overflow
    ========================= */
 .overflow-hidden {
 	overflow: hidden;
@@ -1021,6 +1025,31 @@
 	flex-wrap: nowrap;
 }
 
+.justify-content-center {
+	justify-content: center;
+}
+.justify-content-between {
+	justify-content: space-between;
+}
+.justify-content-start {
+	justify-content: start;
+}
+.justify-content-end {
+	justify-content: end;
+}
+.justify-items-stretch {
+	justify-items: stretch;
+}
+.justify-items-start {
+	justify-items: start;
+}
+.justify-items-end {
+	justify-items: end;
+}
+.justify-items-center {
+	justify-items: center;
+}
+
 .align-items-center {
 	align-items: center;
 }
@@ -1078,58 +1107,30 @@
 }
 
 /* Self alignment utilities */
-.self-start {
+.align-self-start {
 	align-self: start;
 }
-.self-center {
+.align-self-center {
 	align-self: center;
 }
-.self-end {
+.align-self-end {
 	align-self: end;
 }
-.self-stretch {
+.align-self-stretch {
 	align-self: stretch;
 }
 
-/* Order utilities */
-.order-1 {
-	order: 1;
+.justify-self-start {
+	justify-self: start;
 }
-.order-2 {
-	order: 2;
+.justify-self-center {
+	justify-self: center;
 }
-.order-3 {
-	order: 3;
+.justify-self-end {
+	justify-self: end;
 }
-.order-first {
-	order: -9999;
-}
-.order-last {
-	order: 9999;
-}
-.justify-content-center {
-	justify-content: center;
-}
-.justify-content-between {
-	justify-content: space-between;
-}
-.justify-content-start {
-	justify-content: start;
-}
-.justify-content-end {
-	justify-content: end;
-}
-.justify-items-stretch {
-	justify-items: stretch;
-}
-.justify-items-start {
-	justify-items: start;
-}
-.justify-items-end {
-	justify-items: end;
-}
-.justify-items-center {
-	justify-items: center;
+.justify-self-stretch {
+	justify-self: stretch;
 }
 
 .gap-1 {
@@ -1151,7 +1152,25 @@
 	gap: var(--size-3, 3rem);
 }
 
-/* Grid helpers */
+.order-1 {
+	order: 1;
+}
+.order-2 {
+	order: 2;
+}
+.order-3 {
+	order: 3;
+}
+.order-first {
+	order: -9999;
+}
+.order-last {
+	order: 9999;
+}
+
+/* =========================
+   Grid Helpers
+   ========================= */
 .grid-2 {
 	grid-template-columns: repeat(2, 1fr);
 }
@@ -1201,23 +1220,30 @@
 	padding-block: var(--inner-padding-block);
 }
 
-/* ========================= Utilities ========================= */
-/* Wrapper/Layout */
+/* =========================
+   Utilities
+   ========================= */
+
+/* =========================
+   Wrapper/Layout
+   ========================= */
 .wrapper {
 	min-block-size: 100dvh;
 	grid-template-rows: auto 1fr auto;
 	align-items: start;
 }
 
-/* Flex/grid helpers */
+/* =========================
+   Flex/Grid Helpers
+   ========================= */
 .auto-fit {
-	grid-template-columns: repeat(auto-fit, minmax(var(--xs, 10rem), 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(min(var(--xs, 10rem), 100%), 1fr));
 }
 .auto-fill {
-	grid-template-columns: repeat(auto-fill, minmax(var(--xs, 10rem), 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(min(var(--xs, 10rem), 100%), 1fr));
 }
 
-/* Flex grow/shrink helpers */
+/* Flex grow/shrink */
 .flex-1 {
 	flex: 1 1 0%;
 }
@@ -1237,7 +1263,9 @@
 	flex-shrink: 0;
 }
 
-/* Float/image shaping */
+/* =========================
+   Float & Image Shaping
+   ========================= */
 .float-left {
 	float: left;
 	margin-right: var(--size-1, 1rem);
@@ -1252,7 +1280,9 @@
 	shape-outside: circle(50%);
 }
 
-/* Accessibility helpers */
+/* =========================
+   Accessibility Helpers
+   ========================= */
 .visually-hidden {
 	position: absolute;
 	width: 1px;
@@ -1275,7 +1305,9 @@
 	white-space: normal;
 }
 
-/* Text wrapping */
+/* =========================
+   Text Wrapping Utilities
+   ========================= */
 .balance {
 	text-wrap: balance;
 }
@@ -1286,7 +1318,9 @@
 	text-wrap: wrap;
 }
 
-/* Aspect ratios */
+/* =========================
+   Aspect Ratios
+   ========================= */
 .square {
 	aspect-ratio: 1 / 1;
 }
@@ -1306,7 +1340,9 @@
 	aspect-ratio: 1.618 / 1;
 }
 
-/* Object fit utilities */
+/* =========================
+   Object Fit
+   ========================= */
 .object-cover {
 	object-fit: cover;
 }
@@ -1323,7 +1359,9 @@
 	object-fit: scale-down;
 }
 
-/* Miscellaneous */
+/* =========================
+   Miscellaneous
+   ========================= */
 .full-width {
 	width: 100%;
 }
@@ -1337,7 +1375,9 @@
 	list-style: none;
 }
 
-/* Border utilities */
+/* =========================
+   Border
+   ========================= */
 .border {
 	border: 1px solid currentColor;
 }
@@ -1364,7 +1404,9 @@
 	border: none;
 }
 
-/* Cursor helpers */
+/* =========================
+   Cursor
+   ========================= */
 .cursor-pointer {
 	cursor: pointer;
 }
@@ -1399,7 +1441,9 @@
 	cursor: grabbing;
 }
 
-/* Opacity utilities */
+/* =========================
+   Opacity
+   ========================= */
 .opacity-0 {
 	opacity: 0;
 }
